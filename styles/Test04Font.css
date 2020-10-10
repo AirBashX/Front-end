@@ -1,0 +1,25 @@
+@charset "UTF-8";
+.div1{
+    width: 100px;
+    height: 100px;
+    text-align: center;/* 需要在a的父标签内设置 */
+    text-decoration:overline;
+    color: lightgreen;
+    text-shadow: mediumblue 2px 2px 52px;
+    line-height: 20px;
+}
+.a1{
+    text-decoration:overline;
+    color: red;
+    text-shadow: black 2px 2px 1px;
+    line-height: 50px;
+}
+.div2{
+    width:100px;
+    height: 100px;
+    background-color: blue;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: lighter;
+    font-style: oblique;
+}

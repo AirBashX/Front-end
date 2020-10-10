@@ -1,0 +1,19 @@
+@charset "UTF-8";
+.div1{
+    width: 100px;
+    height: 100px;
+    background-color: lawngreen;
+    overflow: scoll;
+}
+.a1{
+    display: block;
+    width:100px;
+    height: 100px;
+    background-color: red;
+}
+.a2{
+    display: inline-block;
+    width:100px;
+    height: 100px;
+    background-color: blue;
+}

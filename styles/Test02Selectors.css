@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* 通用选择器 */
+*{
+    padding:0px;
+    margin: 0px;
+    border:0px;
+}
+/* id选择器:通常不使用id选择器 */
+#div-id1{
+    width: 100px;
+    height: 200px;
+    background-color: black;
+}
+/*当id和class指定的是相同标签时,div>class*/
+#div-class1{
+    width: 100px;
+    height: 200px;
+    background-color: yellow;
+}
+/* class选择器 */
+.div-class2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+/* 元素名选择器:a可以省略 */
+a[target]{
+  color: brown;
+}
+.class1{
+    width:100px;
+    height:100px;
+}
+/* 分组选择器 */
+.class3,.class4{
+    width:100px;
+    height: 100px;
+    background-color: darkgreen;
+}
+.class1>.class5{
+    width:100px;
+    height:100px;
+    background-color: darkturquoise;
+}

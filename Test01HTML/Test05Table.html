@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表格</title>
+    <style type="text/css">
+        table{ 
+            border-collapse:collapse;
+            border:solid 1px Black;
+            width: 200px;
+        }
+        td{ border:solid 1px Black;}
+        th{border:solid 1px Black;}
+    </style>
+</head>
+<body>
+    table标签的所有属性在html5中都不推荐使用,想使用可以去查看文档<br/>
+    <table border="1" cellpadding="0" cellspacing="0" width="200px">
+        <caption>测试表格1:老板属性</caption>
+        <tr>
+            <th>123</th><th>456</th>
+        </tr>
+        <tr>
+            <td>变色</td><td>龙</td>
+        </tr>
+    </table>
+
+    <table>
+        <caption>测试表格2:新版属性</caption>
+        <tr>
+            <th>123</th><th>456</th>
+        </tr>
+        <tr>
+            <td>变色</td><td>龙</td>
+        </tr>
+    </table>
+
+    <table>
+        <caption>测试表格3:合并单元格</caption>
+    </table>
+    <table>
+        <caption>测试表格2:新版属性</caption>
+        <tr>
+            <th>123</th><th>456</th><th>789</th>
+        </tr>
+        <tr>
+            <td rowspan="3"  colspan="2">变色龙</td><td>1</td>
+        </tr>
+        <tr>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+        </tr>
+    </table>
+</body>
+</html>

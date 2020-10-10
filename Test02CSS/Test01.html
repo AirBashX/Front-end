@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS优先级</title>
+    <style type="text/css">
+        .divx{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+        }
+    </style>
+    <link rel="stylesheet" href="../styles/Test01.css">
+</head>
+<body>
+    css的有显示是内联优先级最高,内部跟外部的后书写的高
+    <div class="divx" style="background-color: black;">
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+.div1{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.div2{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+.div3{
+    width: 100px;
+    height:200px;
+    background-color: red;
+    float:left;
+    vertical-align: bottom;
+}
+.div4{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    float:left;
+    vertical-align: bottom;
+    clear: right;
+}
+.div5{
+    width: 100px;
+    height:300px;
+    background-color: blue;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.div6{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: green;
+    vertical-align: bottom;
+}

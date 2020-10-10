@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.a1:link{
+    color: yellow;
+}
+.a1:hover{
+    color:black;
+}
+.a1:visited{
+    color:red;
+}
+.a1:active{
+    color:green;
+}

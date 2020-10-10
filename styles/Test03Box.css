@@ -1,0 +1,17 @@
+@charset "UTF-8";
+#div1,#div2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 100px;
+    padding: 100px;
+    border: 100px solid black;
+}
+#span1{
+    width: 100px;/* 宽和高不生效 */
+    height: 100px;/* 宽和高不生效 */
+    background-color: yellow;
+    margin: 100px;/* 只对左右生效 */
+    padding: 100px;
+    border: 100px solid red;
+}
